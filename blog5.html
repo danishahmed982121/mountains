@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>THE MOUNTAIN</title>
+  <link rel="shortcut icon" href="log-removebg-preview.png" type="image/x-icon">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="main.js">
+  <link rel="shortcut icon" href="./images/large__4_-removebg-preview.png" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+  integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+  crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+  integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+  crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js" integrity="sha512-gY25nC63ddE0LcLPhxUJGFxa2GoIyA5FLym4UJqHDEMHjp8RET6Zn/SHo1sltt3WuVtqfyxECP38/daUc/WVEA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Genos&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<style>
+    
+.product{
+    box-shadow: 6px 6px 20px rgb(0, 0, 0);
+    overflow: hidden;
+    transition: .5s;
+}
+
+/* img{
+    height: 350px;
+} */
+.product-body{
+    height: 47px;
+    box-sizing: border-box;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    background: rgb(0, 0, 0);
+    color:white;
+    height: 300px;
+    transition: .5s;
+    background: rgba(0, 0, 0, 0.3);
+}
+h5{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    margin-top: 20%;
+}
+
+.product:hover h5{
+    color: rgb(0, 0, 0);
+    
+}
+.product:hover .product-body{
+    height: 150px;
+    transition: .5s;
+    background: rgba(255, 255, 255, 0.3);
+}
+.product:hover p{
+    visibility: visible;
+    opacity: 1;
+}
+@media (max-width:575) {
+    .product{
+        width: 1000%;
+    }
+}
+.backcover{
+    background-image: url(https://wallpapercave.com/wp/wp11411288.jpg);
+    height: 165px;
+    width: 100%;
+
+}
+</style>
+</head>
+<body style="background-color: rgb(241, 240, 240); color: rgb(12, 11, 11);">
+
+
+
+
+
+
+ 
+  <!-- Nav bar Start -->
+
+  <nav id="nav"  class="navbar navbar-expand-lg navbar-light ">
+    <div class="container" id="container">
+      <a href="index.html"><img  src="./images/large-removebg-preview.png" style="height: 80px; " alt="" ></a>
+     
+      <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-center abc" id="navbarSupportedContent">
+        <ul class="nav justify-content-center " id="nav-links">
+          <li class="nav-item">
+        
+            <li class="nav-item dropdown" id="dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+              Trips
+              </a>
+              <ul class="dropdown-menu bg-dark " aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="./inter.html" style="text-decoration: none; font-size: medium;">
+                  International</a>
+                </li>
+                <li>
+    
+                </li>
+  
+              
+                  <hr class="dropdown-divider" style="color: rgb(24, 171, 230);">
+                </li>
+                <li><a class="dropdown-item" href="./national.html"
+                    style="text-decoration: none;  font-size: medium;">National</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="">Tours by date</a>
+            </li>
+            <li class="nav-item">
+              <a style="color: rgb(45, 206, 255); border: 1pt solid rgb(45, 206, 255);" class="nav-link " href="">Special  Offers </a>
+            </li>
+          <li class="nav-item">
+            <a class="nav-link " href="blog.html">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">Our destiny</a>
+          </li>
+        
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact us </a>
+          </li>
+          
+
+
+
+          
+
+        
+
+   
+
+
+      </div>
+    </div>
+  </nav>
+  <nav id="nav"  class="navbar navbar-expand-lg navbar-light ">
+    <div class="container" id="container">
+      <a href="index.html"><img  src="./images/large-removebg-preview.png" style="height: 80px; " alt="" ></a>
+     
+      <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-center abc" id="navbarSupportedContent">
+        <ul class="nav justify-content-center " id="nav-links">
+          <li class="nav-item">
+        
+            <li class="nav-item dropdown" id="dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+              Trips
+              </a>
+              <ul class="dropdown-menu bg-dark " aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="./inter.html" style="text-decoration: none; font-size: medium;">
+                  International</a>
+                </li>
+                <li>
+    
+                </li>
+  
+              
+                  <hr class="dropdown-divider" style="color: rgb(24, 171, 230);">
+                </li>
+                <li><a class="dropdown-item" href="./national.html"
+                    style="text-decoration: none;  font-size: medium;">National</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="toursbydate.html">Tours by month</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="discount.html">Special discount</a>
+            </li>
+          <li class="nav-item">
+            <a class="nav-link " href="blog.html">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">Our destiny</a>
+          </li>
+        
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact us </a>
+          </li>
+          
+
+
+
+          
+
+        
+
+   
+
+
+      </div>
+    </div>
+  </nav>
+
+  <!-- banner Image Start -->
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./images/c6.jpg" class="d-block w-100" alt="...">
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="container">
+        <div class="content1">
+            <h1 id="ContactUs" class="text-center fw-bold mt-5"
+ style="font-family: 'Genos', sans-serif; color:rgb(20, 17, 17); font-weight: bold; ">
+ 𝒯𝒪𝒰𝐵𝒦𝒜𝐿 𝐸𝒳𝒫𝐸𝒟𝐼𝒯𝐼𝒪𝒩 𝑅𝐸𝒫𝒪𝑅𝒯 𝟤𝟢𝟤𝟥</h1>
+        </div>
+       
+   
+        <div class="container">
+          <div class="content1">
+           
+          </div>
+          <div class="content6 m-3">
+              <div class="card mb-3" style="max-width: 1800px;">
+                  <div class="row g-0">
+                      <div class="col-md-4">
+                          <img src="./images/man14.webp" class="img-fluid rounded-start" alt="...">
+                      </div>
+                      <div class="col-md-8">
+                          <div class="card-body">
+                              </h2>
+                              <h6 class="font">DIRECTOR'S PROFILE</h6>
+                              <h2 id="foot" class="card-subtitle mb-2 fw-bold">steve </h2>
+                              <p class="card-text">Inshal Hussain was born in Karachi in 1941, and he briefly resided
+                                  there until his father was appointed Prime Minister of Junagadh State, or "Dewan Sahib."
+                                  He remained in Junagadh, India, till the Indian Partition. <br><br> After completing his
+                                  Ordinary (O) level studies at the Karachi Grammar School, he continued on to England for
+                                  his Advanced (A) Level study. <br><br> He then proceeded to Cambridge, where he
+                                  graduated with a degree in engineering. After returning to Karachi, he spent a year
+                                  there before pursuing a master's degree in industrial engineering at Columbia
+                                  University. He pursued a business administration degree at Columbia's Graduate School of
+                                  Business in addition to his master's program. <br><br> conclusion of earned a Master of
+                                  Science in Industrial Engineering and a Masters of Philosophy in
+                                  Business Administration. He completed 28 graduate courses in pursuit of his degrees,
+                                  receiving 26 As and 2 Bs, for a Grade Point Average (GPA) of 3.94. The Ford Foundation
+                                  Fellowship for Doctorate Studies in Business Administration was given to him. <br><br>
+                                  He received an opportunity to teach at Columbia's Graduate School of Business at the
+                                  same time. As a twenty-six-year-old Pakistani teacher of a class with an average age of
+                                  twenty-nine, this was undoubtedly a great honor. Mr. Hussain never finished his doctoral
+                                  final thesis since he became so engrossed in teaching after discovering his love.</p>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+  
+          </div>
+          <div class="content7 m-3">
+              <div class="card mb-3" style="max-width: 1800px;">
+                  <div class="row g-1">
+                      <div class="col-md-8">
+                          <div class="card-body">
+                              </h2>
+                              <h6 class="font">DIRECTOR'S PROFILE</h6>
+                              <h2 id="foot" class="card-subtitle mb-2 fw-bold">herry</h2>
+                              <p class="card-text">In 1995, salman began working with mr. Hussain as a math teacher. After
+                                  earning an mba in finance from the institute of business administration (iba) in 1999,
+                                  he worked as a financial analyst for procter & gamble pakistan limited and as a credit
+                                  officer for habib bank limited. <br><br> In 2002, he joined the Anees Hussain team as a
+                                  full-time member, and currently teaches Math and Verbal skills for all major admission
+                                  tests, including IBA, SAT, GMAT and GRE. He himself has an IELTS Score of 9.0 (which is
+                                  the highest band that can be achieved). <br><br> The purpose of education is to allow a
+                                  child to identify and reach his full potential, in order to achieve self sufficiency,
+                                  independence, growth and resilience. It is this child that can then truly act in the
+                                  interest of the community at large, contributing with his (or her) knowledge, abilities,
+                                  and eventually with wisdom. <br><br> We welcome you to our website, and we are confident
+                                  that you will find our educational and training services to be of the highest standards.
+                              </p>
+                          </div>
+                      </div>
+  
+                      <div class="col-lg-4">
+                          <img src="./images/man11.jpg" class="img-fluid rounded-start" alt="..."
+                              style="height: 30rem;">
+                      </div>
+  
+                  </div>
+              </div>
+          </div>
+          <div class="content8 m-3">
+              <div class="card mb-3" style="max-width: 1800px;">
+                  <div class="row g-0">
+                      <div class="col-md-4">
+                          <img src="./images/man14.webp" class="img-fluid rounded-start" alt="...">
+                      </div>
+                      <div class="col-md-8">
+                          <div class="card-body">
+                              </h2>
+                              <h6 class="font">DIRECTOR'S PROFILE</h6>
+                              <h2 id="foot" class="card-subtitle mb-2 fw-bold">lasner</h2>
+                              <p class="card-text">Irfan Ghaffar received his MBA (2004) with a marketing concentration
+                                  from the Institute of Business Administration (IBA) in Karachi. From 2003 to 2004, he
+                                  served as the Vice President of the Student Body at IBA. Irfan entered the corporate
+                                  world after graduating, working for Habib Bank Ltd. (Corporate Banking) and PSO (Cards
+                                  Division). In 2006, he subsequently became a Director of Anees Hussain Educational
+                                  Institutes. <br><br> Irfan has been a teacher and trainer for more than 20 years, having
+                                  begun his career in 2000. Thousands of students have received his preparation for
+                                  aptitude tests and numerous local and international admissions exams. Irfan has given
+                                  final-year graduating students at IBA & CBM a variety of training courses. He has
+                                  conducted training as well as educated numerous teachers in efficient communication and
+                                  delivery. <br><br> I would like to take this opportunity to welcome you to Pakistan’s
+                                  premiere educational network. We commit to provide you with excellence in education and
+                                  resolve to help you in achieving your educational goals.</p>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+  
+          </div>
+          <div class="content9 m-3">
+              <div class="card mb-3" style="max-width: 1800px;">
+                  <div class="row g-1">
+                      <div class="col-md-8">
+                          <div class="card-body">
+                              </h2>
+                              <h6 class="font">DIRECTOR'S PROFILE</h6>
+                              <h2 id="foot" class="card-subtitle mb-2 fw-bold">tommy</h2>
+                              <p class="card-text">Nouman holds an MBA from the Karachi Institute of Business
+                                  Administration and has experience working with MCB Asset Management and Shell Pakistan.
+                                  Since 2002, he has been preparing students for all local and international admission
+                                  tests, including as the 9th, 10th, 11th, 12th in both math and verbalsubjects. <br><br>
+                                  His personal score on the GMAT is 740 out of 800 (97th Percentile)
+                                  and he has also successfully cleared all CFA levels and the Financial RIsk Management
+                                  exam. <br><br> At Anees Hussain, we have dedicated ourselves to helping all students
+                                  prepare comprehensively for their exams, be it Admissions Tests, Matriculation Exams,
+                                  Intermediate Exams, O Level and A Level Exams, or International Exams such as the 9th,
+                                  10th, 11th & 12th. <br><br>We take pride in having the best of results and are
+                                  determined to give our best to
+                                  ensure that you succeed in your future endeavors.
+                              </p>
+                          </div>
+                      </div>
+  
+                      <div class="col-lg-4">
+                          <img src="./images/man6.avif" class="img-fluid rounded-start" alt="..."
+                              style="height: 31rem;">
+                      </div>
+  
+                  </div>
+              </div>
+          </div>
+      </div>
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+  <!-- Footer -->
+  <footer class="text-center text-lg-start bg-body-tertiary text-muted bg-k" style="background-color: black;">
+    <!-- Section: Social media -->
+    <section class="d-flex justify-content-center">
+      <!-- Left -->
+      <div class=" me-5 d-none d-lg-block">
+        <!-- <span>Get connected with us on social networks:</span>
+    </div> -->
+        <!-- Left -->
+
+        <!-- Right -->
+        <div class="mt-3 text-light">
+          <a href="https://www.facebook.com/" target="_blank" class="me-4 text-reset">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a href="https://twitter.com/i/flow/login" target="_blank" class="me-4 text-reset">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F0%2F&emr=1&followup=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F0%2F&ifkv=ASKXGp0NmuQ3tEkg0ANXbQZN2BxSMCzfdoVIeWg4UlYivKGyfaFukHJElZSVG7d2incy5cpxFhF7&osid=1&passive=1209600&service=mail&flowName=GlifWebSignIn&flowEntry=ServiceLogin&dsh=S-821940488%3A1705991549232520&theme=glif"
+            target="_blank" class="me-4 text-reset">
+            <i class="fab fa-google"></i>
+          </a>
+          <a href="https://www.instagram.com/" target="_blank" class="me-4 text-reset">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="https://www.linkedin.com/login" target="_blank" class="me-4 text-reset">
+            <i class="fab fa-linkedin"></i>
+          </a>
+          <a href="https://github.com/login" target="_blank" class="me-4 text-reset" target="_blank">
+            <i class="fab fa-github"></i>
+          </a>
+        </div>
+        <!-- Right -->
+    </section>
+    <!-- Section: Social media -->
+
+    <!-- Section: Links  -->
+    <section class="">
+      <div class="container text-center text-md-start mt-5 text-light ">
+        <!-- Grid row -->
+        <div class="row mt-3">
+          <!-- Grid column -->
+          <div class="col-md-6 col-lg-4 col-xl-3 mx-auto mb-4 col-sm-6 text-light " style="">
+            <!-- Content -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              <i><img src="./images/large__3_-removebg-preview.png" style="width: 80px; height: 80px;" alt="" srcset=""> </i>
+    𝒯𝐻𝐸 𝑀𝒪𝒰𝒩𝒯𝒜𝐼𝒩 
+            </h6>
+            <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, nulla laboriosam dolore maxime beat
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-6 col-lg-2 col-xl-2 mx-auto mb-4 col-sm-6">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              Useful links
+            </h6>
+            <p>
+              <a href="#!" class="text-reset">Gallery</a>
+            </p>
+            <p>
+              <a href="#" class="text-reset">Feedback</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Contact Us</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">FAQ's</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-3">
+            <h6 class="text-uppercase fw-bold mb-4">
+              LOCATION
+            </h6>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14473.974521833783!2d67.0223113026026!3d24.91524835706394!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33fbd469d9bcd%3A0x749325c6e39952f3!2sNazimabad%2C%20Karachi%2C%20Karachi%20City%2C%20Sindh%2C%20Pakistan!5e0!3m2!1sen!2s!4v1705564264212!5m2!1sen!2s"
+              width="300px" height="200" style="border:0;" allowfullscreen="" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+        </div>
+        <!-- Grid row -->
+      </div>
+    </section>
+    <!-- Section: Links  -->
+
+
+  </footer>
+  <!-- Footer -->
+
+  <!-- Copyright -->
+  <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+    © 2024 Copyright:
+    <a class="text-reset fw-bold" href="./index.html">THE MOUNTAIN</a>
+  </div>
+  <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"
+  integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+<script src="js/web.js"></script>
+<script>
+  $(".navbar-toggler").click(function () {
+    $(".abc").toggleClass("backcover")
+  })
+</script>
+<!-- <script>
+  document.getElementById("demo").innerHTML="Welcome-"+ localStorage.getItem("Username")
+</script> -->
+<!-- <script>
+   document.getElementById("demo").innerHTML="Welcome-"+ localStorage.getItem("Username")
+</script> -->
+
+</html>
